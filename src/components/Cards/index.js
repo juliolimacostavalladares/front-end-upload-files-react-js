@@ -42,7 +42,7 @@ export default function Cards() {
                 {locale: ptBR} // Pass the locale as an option
               )
           }
-          <img width={100}  height={100} id={'collapseExample'+i.id} className="card-text mb-auto collapse" src={i.url} alt="s"/>
+          <embed  width={100}  height={100} id={'collapseExample'+i.id} className="card-text mb-auto collapse" src={i.url} alt="s"/>
           <a className="stretched-link" data-toggle="collapse" href={'#collapseExample'+i.id} aria-expanded="false" aria-controls={"collapseExample"+i.id}>Continue Lendo</a>
          </div>
     </div>
